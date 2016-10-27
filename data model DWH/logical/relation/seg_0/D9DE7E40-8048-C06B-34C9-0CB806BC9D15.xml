@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Customer_channel" directorySegmentName="seg_0" id="D9DE7E40-8048-C06B-34C9-0CB806BC9D15">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:30:35 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<sourcePk>23639087-085B-D90D-5885-A769B72E74DF</sourcePk>
+<targetPk>A2E7CDB1-C2F4-90BD-8059-B7846F26100D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>730CA96D-DF5B-92A9-E989-E3C3C664E0B6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>23438301-D830-1233-34A9-B6D51ADA2E6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="orders_ddl_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_11" id="29DB3B22-A19F-D2EE-5D2F-EA9FA90353A4">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>11</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BIGINT_0_0_20" id="3A61EBFF-6396-B2B8-E615-DA1E4CCA2251">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT027</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_19_2_0" id="B794E2C0-C3EB-4764-DC90-8938E87A9F5C">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>19</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="C4D2C118-B1B7-52C3-3BDA-03D5153A5C5A">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>500</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="C651043B-6DC2-627A-70D7-554C7E73E824">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Datetime_0_0_6" id="D80E6DDE-19E7-7D42-6F41-6983BBBFF40D">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>6</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_0_0_0" id="F707131B-3291-EF3B-48DC-8AC7AAD294EC">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="F72DBB32-50D3-90EE-8B8F-A3099FD4A8DA">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="FE75CA7B-F39D-4A92-14D3-13A97106E72D">
+         <createdBy>sluiso</createdBy>
+         <createdTime>2016-10-17 15:21:46 UTC</createdTime>
+         <ownerDesignName>data model DWH</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>orders_ddl_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

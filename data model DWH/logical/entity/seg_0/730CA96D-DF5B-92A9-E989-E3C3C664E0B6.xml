@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="730CA96D-DF5B-92A9-E989-E3C3C664E0B6" name="CUSTOMER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 11:20:00 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmailAddress" id="5708A536-0ABA-BFFE-B469-2AF21AB8131C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:03:12 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="channelID" id="8F642F31-667A-7260-EBA9-2E51E4F35EC2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:03:13 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customerID" id="96F8D8D5-C6F5-73CE-E991-53ED81744463">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:04:06 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ChannelID1" id="0DC3DE0A-4518-1D09-A327-2638EFFCD7E8">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:31:02 UTC</createdTime>
+<generatorID>D9DE7E40-8048-C06B-34C9-0CB806BC9D15</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6F0CBBD3-21DF-D3B0-1D82-CECCCCE5483B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailAddress1" id="583CED51-690F-CBC4-B3DE-B9F8824C28A7">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:31:02 UTC</createdTime>
+<generatorID>D9DE7E40-8048-C06B-34C9-0CB806BC9D15</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>3B4E1ABC-D3C8-2C11-2444-5664B7548F5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="channelID11" id="05C3440C-292F-6DE2-BC47-775C83D25EB8">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:31:02 UTC</createdTime>
+<generatorID>D9DE7E40-8048-C06B-34C9-0CB806BC9D15</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>84401DCF-FB2B-E0C9-AEF1-97B09AD760DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23639087-085B-D90D-5885-A769B72E74DF" name="CUSTOMER PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:04:50 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5708A536-0ABA-BFFE-B469-2AF21AB8131C</attributeRef>
+<attributeRef>8F642F31-667A-7260-EBA9-2E51E4F35EC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

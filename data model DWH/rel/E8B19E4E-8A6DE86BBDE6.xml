@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="greetz3 staging" id="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" mainViewID="DCF8FA90-9D57-97F7-34CC-D16B5FB9415B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:16:05 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>orders_ddl.sql</fileName>
+<pathName>C:\Users\sluiso\Desktop</pathName>
+<dbType>13</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

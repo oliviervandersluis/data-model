@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62A12BDA-1B3E-FCEB-F0EB-49EEFE399215" name="ORDERLINE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:12:59 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderlineID" id="7B1EE9D2-3273-CB13-9ED0-312B2DCDB468">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:13:38 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID" id="10BCEBC9-80CE-C0DA-7CD8-523425B6BB3B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:14:07 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID1" id="FF38DCB0-AB9B-D549-D13C-6E4DB6025F99">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:23:46 UTC</createdTime>
+<generatorID>164EE3C7-D8A2-98C4-73CB-106B8C286475</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>FE06AC3E-0DAC-26A7-28D1-54E801CCB149</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderCode2" id="D542B910-DC66-626C-2FD9-5B9900411CA1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:37:40 UTC</createdTime>
+<generatorID>C916D8A9-4754-3B6A-03CB-A67BF7E251B6</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>BF5BC429-71BE-A7D5-CF38-9DF1CAAEE6EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ChannelID2" id="33F9DD96-F66D-EDC7-B242-F81ECBA05949">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:37:40 UTC</createdTime>
+<generatorID>C916D8A9-4754-3B6A-03CB-A67BF7E251B6</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>E15D7610-0712-5EE4-BFF1-63FC8D5E3114</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmailAddress1" id="8511C42F-D2E9-C27E-72E4-85AB10587577">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:37:40 UTC</createdTime>
+<generatorID>C916D8A9-4754-3B6A-03CB-A67BF7E251B6</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>D5C14C68-2C0C-3851-0526-39558B1168BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="channelID11" id="8D9AC6F5-3B5E-F186-B6D8-17341B0EBECD">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:37:40 UTC</createdTime>
+<generatorID>C916D8A9-4754-3B6A-03CB-A67BF7E251B6</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<referedAttribute>51662B47-20C3-2605-D537-A9AC66215F3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F7A9A4B-636C-5E6B-F30D-1A37345DB187" name="ORDERLINE PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:13:56 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B1EE9D2-3273-CB13-9ED0-312B2DCDB468</attributeRef>
+<attributeRef>D542B910-DC66-626C-2FD9-5B9900411CA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

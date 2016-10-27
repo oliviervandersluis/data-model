@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DCF8FA90-9D57-97F7-34CC-D16B5FB9415B" name="greetz3 staging" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orderline_product" directorySegmentName="seg_0" id="164EE3C7-D8A2-98C4-73CB-106B8C286475">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 12:23:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<sourcePk>FC7E8468-5249-9828-DC55-AE7FC4BA7678</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ProductID</nameOnSource>
+<nameOnTarget>ProductID</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FBF59E75-D436-990F-D681-A1150F3399F2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>62A12BDA-1B3E-FCEB-F0EB-49EEFE399215</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

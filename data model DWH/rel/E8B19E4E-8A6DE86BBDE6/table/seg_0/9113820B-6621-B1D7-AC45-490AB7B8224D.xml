@@ -1,0 +1,475 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9113820B-6621-B1D7-AC45-490AB7B8224D" name="`orders`">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>E6E43AA8-3B76-3CAD-2D82-B80C0FD3ACDE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`ID`" id="D26FB205-BE06-6ED9-1F8E-97058938F1F2">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>365684CB-9188-C49F-1213-AD225507292E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CHANNELID`" id="C23425B9-7A94-0DAA-5052-11CF94C05998">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>C852D262-0EC1-C163-A607-23F659CE567D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORDERCODE`" id="0E61D88C-A129-5708-8421-615DA791F568">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>8A2156E8-63E1-BE46-5868-6E312115B31A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CUSTOMERID`" id="550F30FB-9195-9B41-2BC3-D69A27ED5908">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>DCC88ABA-F755-5D36-F54A-BADF34D4DDE2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`SHOPPINGBASKETUUID`" id="C9054C4D-AF68-DB55-929B-88D4C8ABD431">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>AF2F78CB-D9D7-9FEF-B95F-FD08FA2D2CCE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`VOUCHERREWARDEDID`" id="0AFBBFE3-AA64-B372-D774-FB753DE45EC9">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>E777A60A-DFC0-D018-88D8-D922D8C20095</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CREATED`" id="249A4C72-F234-0B7F-A3A8-BA1AFAF612F8">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>DB5E4A38-A953-5270-5757-7DDA702733AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>D80E6DDE-19E7-7D42-6F41-6983BBBFF40D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`PAYMENTPRICEWITHVAT`" id="1CED694D-3DD3-4DF9-9356-A0417E76ADC2">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>2AD4EF69-32DA-DB0B-E88A-47E619DEAECE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`GRANDTOTALFORPAYMENT`" id="ED12CFBE-9E9C-3727-74A5-C7E368BACF36">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>F6BFDA01-EE7E-0757-A0BF-38393B503D3E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CURRENCYCODE`" id="AACDC0B9-77D1-BC1D-191B-95C51DA6DBF4">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>6E04F83C-A6F0-DF8B-A36F-5D7A01FEBE8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`BILLINGADDRESS`" id="13C50E2C-4BFC-03BA-65B8-18105D6783DA">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>3E91EEFA-6944-C76E-8AFC-DDFB1B3F4EE3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CLIENTNETWORKADDRESS`" id="28ACD025-2541-6124-F936-048E3A72C005">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>F76AC79E-8A6D-8FC9-C9A3-0B0220BF4B85</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CURRENTORDERSTATE`" id="1AE15F89-107D-CA03-A4BF-53EFE971C7A5">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>72B6832B-0611-EC99-BFD5-450A9A3FCCCC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CONTRAFORORDERID`" id="54F1E120-5FA0-87C4-3DB6-61A7AFF3E1B3">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>33E267FF-F6F3-027B-3E12-06D0CE8469B8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`REFUNDAMOUNTWITHOUTVAT`" id="447A03C8-1062-971C-FD09-4F7E6BAAA5FD">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>DB7ADA1E-3BF1-3E27-54CE-34C5ECAEE2C4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`REFUNDAMOUNTWITHVAT`" id="DD6EBBFF-8F69-A57D-D172-8BD2DB562014">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>2E35985E-0169-12AD-2ABC-13BC5660E4C8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`REFUNDMETHOD`" id="EF477D49-3BC0-2140-7DE4-71887E3EE524">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>021B94F0-310C-1023-C1CC-03A04D07932D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`VOUCHERCODE`" id="13EF486D-CB16-5E8B-44D7-A8043AE70CB4">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>0C37F1E5-5B36-EAA9-BF0C-7C215D5E78D6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`VOUCHERDISCOUNTWITHOUTVAT`" id="0E7D4DD6-DF3A-E4C6-916F-D2D6A1661A6F">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>2F25E3F4-5EA9-CA5C-C467-3E180C3EBBBB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`VOUCHERDISCOUNTWITHVAT`" id="A722CB2B-50DF-2075-34E3-1AB217253CC7">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>69A4D8E2-E390-24E0-A736-83CCE3F1D6DE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>B794E2C0-C3EB-4764-DC90-8938E87A9F5C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`REFERRERCODE`" id="6F0FC2BE-AA24-7050-CB02-394A5B661E0D">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>29E42FDD-75B4-B841-E67E-6E31E61BD22E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`REFERRERID`" id="11BFFCF4-40DB-F7D5-7C2E-9A8E0A49DB8E">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>9C01F41A-CCC0-9D43-0714-59B77F09B250</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORDERIDXFORCONTRAORDER`" id="A7FBF7D7-E463-F0AD-7207-A1B26CDD4E9E">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>196EC0EB-6786-3315-FEE7-D56410D39974</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>29DB3B22-A19F-D2EE-5D2F-EA9FA90353A4</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORDERIDXFORSHOPPINGBASKET`" id="DC9738F0-E678-3905-8476-21DF5540C9D4">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>C83F4B4A-45AE-F648-08DA-0C3812BAC5F3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>29DB3B22-A19F-D2EE-5D2F-EA9FA90353A4</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORIGINALREFERRINGURL`" id="0CDDECCA-63D3-B673-06EB-E8619B663340">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>AD664FC4-6529-74F6-4755-9C2B086EF38A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C4D2C118-B1B7-52C3-3BDA-03D5153A5C5A</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`CREATEDBYANONYMOUSCUSTOMER`" id="70787062-3597-1176-5D5C-31A0B61A71BF">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>BC5FA0A8-F651-C787-9EBE-91512E8180D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C651043B-6DC2-627A-70D7-554C7E73E824</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`PAIDSTATEHISTORYEVENTID`" id="ACC95958-E0AA-C2A0-E11C-394827A91A7D">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>B975FC0A-EF98-62F4-8A45-E100FEAA2C9F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`VERSION`" id="1DEE532C-AF29-549D-AC14-7E7733028531">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>05FCDCB0-61F6-4BDC-45CF-A104ED1F8A38</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>29DB3B22-A19F-D2EE-5D2F-EA9FA90353A4</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`HIDDENFROMCUSTOMER`" id="F40A5B04-01CA-E6B5-CE81-08C93EE9D517">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>28D3049D-E475-3661-4A94-0875D63C92B4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C651043B-6DC2-627A-70D7-554C7E73E824</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`INTERNALINFO`" id="5262A157-8FB1-EFA1-76F8-65EA4EA99967">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>A554469C-AC34-DC63-BBC5-EE4518172176</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F72DBB32-50D3-90EE-8B8F-A3099FD4A8DA</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORDERCOSTSTATE`" id="E47F8758-3D56-6FEF-16B7-CCE14E3751A7">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>5B0635E8-50F2-83DD-9AD3-FD0EE3EA2339</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>&apos;NOT_REQUIRED&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ORDERCOSTID`" id="D4A37680-A45D-5516-CC2B-08B76271D332">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>5922D594-2AF0-EF76-D4DF-AA697A76E580</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`updatedOn`" id="2133F124-A5A3-E62E-4BFF-555FC107C79C">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>2335A969-4B3F-3812-2C0A-821EE59D8720</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>F707131B-3291-EF3B-48DC-8AC7AAD294EC</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`INVOICEID`" id="086F0307-8007-53C9-B233-AE7EA6B30237">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>31A95157-75C9-2646-6D55-8345A67402F3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>3A61EBFF-6396-B2B8-E615-DA1E4CCA2251</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`COSTCENTER`" id="F14B375D-9CB7-B645-75C3-E1F8E1D6B73A">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<importedID>E17B5620-D872-A779-1C1A-FECD8F17AFE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE75CA7B-F39D-4A92-14D3-13A97106E72D</domain>
+<usesDefaultValue>true</usesDefaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

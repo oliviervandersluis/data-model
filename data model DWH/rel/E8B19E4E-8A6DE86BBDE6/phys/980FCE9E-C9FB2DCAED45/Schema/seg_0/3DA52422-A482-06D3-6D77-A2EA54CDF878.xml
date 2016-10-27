@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaSqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.SchemaSqlServerv2k5" name="SCHEMA1" directorySegmentName="seg_0" id="3DA52422-A482-06D3-6D77-A2EA54CDF878">
+<sourceDDLFile>orders_ddl.sql</sourceDDLFile>
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 15:21:13 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+</SchemaSqlServerv2k5>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="relational sales" id="49D1E2D4-24FE-33FB-412D-CD772D449873" mainViewID="7C945749-0292-BE34-AD6F-FE53C83B0C1D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-10-17 13:14:54 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>
