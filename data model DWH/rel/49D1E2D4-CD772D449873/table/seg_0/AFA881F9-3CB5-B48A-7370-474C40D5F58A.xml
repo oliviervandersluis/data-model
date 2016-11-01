@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFA881F9-3CB5-B48A-7370-474C40D5F58A" name="HUB_SHIPMENTPROVIDER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:19:17 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DV_SHIPMENTPROVIDER_ID" id="242266F6-E7D7-6D64-CF00-529D1C17FE53">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:19:57 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BK_SHIPMENTPROVIDERNAME" id="2A3A8C9A-B172-7280-DC0C-70EB4E4B3409">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:20:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DTS" id="EF1F0005-8EED-815F-30F2-A9CE85FA7873">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:20:49 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECORD_SOURCE" id="A351AED1-76CB-DE7D-94B4-8E0ACD9839D5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:20:49 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ETL_RUN_ID" id="AFBD4C35-AE3A-64F3-CF7E-ACB58A9F9A3F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:20:49 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="195A716D-5666-89C0-87F6-AFFAB078BAC4" name="HUB_SHIPMENTPROVIDER_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:19:57 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="242266F6-E7D7-6D64-CF00-529D1C17FE53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

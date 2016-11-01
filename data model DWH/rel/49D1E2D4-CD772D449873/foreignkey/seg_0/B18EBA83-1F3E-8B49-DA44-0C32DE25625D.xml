@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B18EBA83-1F3E-8B49-DA44-0C32DE25625D" containerWithKeyObject="C8EB7B0C-2E0A-19A2-B901-BC7C3088743E" localFKIndex="E8808F37-C858-ACC4-CC34-05F823942869" name="HUB_SHIPMENTPROVIDER_LNK_ORDERLINE_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:18:08 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4880EFE0-999B-A96D-E59F-1C13C4D5BF64</referredTableID>
+<keyObject>F14816B9-2F26-1C33-94E3-FC91A958C001</keyObject>
+<referredKeyID>F14816B9-2F26-1C33-94E3-FC91A958C001</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

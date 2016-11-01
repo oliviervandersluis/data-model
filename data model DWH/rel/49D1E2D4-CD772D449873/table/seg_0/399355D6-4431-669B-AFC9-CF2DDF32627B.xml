@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="399355D6-4431-669B-AFC9-CF2DDF32627B" name="SAT_PRODUCT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:57:22 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTNAME" id="8E584B33-F933-C46B-3C27-728605F291D3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:58:22 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_2" id="95BDA5B6-775B-E589-B102-FB815355DA34">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:58:22 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="7C384A41-426D-90F5-B769-3915C2C87BD3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:58:22 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALID_FROM" id="56EDF7DC-A5D3-B8C2-2BB2-EFA638C8536C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALID_TO" id="B8C4E33D-723C-1375-BC8A-A70528E9A29C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_CURRENT" id="40D412D4-51DD-ABB5-F1C9-E3DB8CC2DD42">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DTS" id="DB421EDC-C23C-205C-2A12-5F175AFC35C5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECORD_SOURCE" id="B9A50792-8AB4-6EDF-A27C-FB278D8166DE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ETL_RUN_ID" id="F2A7F2EF-A31D-B8F0-C2CE-AB86B761796D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 12:59:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

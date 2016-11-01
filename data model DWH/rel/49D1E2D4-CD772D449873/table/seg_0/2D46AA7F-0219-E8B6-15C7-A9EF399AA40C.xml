@@ -18,6 +18,63 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ORDERID" id="0BBE17CE-1307-EA77-4ED2-1B452CA0ACC3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:22:08 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENTTYPE" id="E6A220D8-99B4-43CE-AD23-956CDEEA20C6">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:23:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENTORDERSTATE" id="ECD9C8BC-23D6-CE20-9AF5-C0E3343443DF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:23:57 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENTMETHOD" id="FA763D5A-769B-9A59-7A03-F0C6AF0090A2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:25:45 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANNELID" id="AAC6A7CF-6E71-DD11-F319-BC4F00547C4C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:27:05 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="VALID_FROM" id="2CFD09D9-78C2-BC61-CAE6-FC33321FFD28">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-10-17 14:25:55 UTC</createdTime>
@@ -47,8 +104,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LOAD_DTS" id="F2984E31-B34E-5BFC-4653-E60035AFDEA4">
@@ -95,6 +151,63 @@
 <associations>
 <colAssociation fkAssociation="0FB461DA-DC48-6E8B-656F-D221CF4DAAE4" referredColumn="1258D2E5-4552-6AA9-6BCA-0747D9407E61"/>
 </associations>
+</Column>
+<Column name="PAIDDATE" id="4A9F82E2-EA1F-523B-1CFF-63C03B1B4AAF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:43:11 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIDTIME" id="BD3BE802-1A2D-D4CA-88EA-02733F4646E1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 10:43:37 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFERRERCODE" id="CAE3A7F1-6D74-95DF-A948-4744275CF783">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:35:33 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOUCHER_PREFIX" id="23F425F2-FC1D-C48D-20D2-B61560D6E80F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:35:46 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOUCEHRCODE" id="03DA839A-F4C1-F938-1EE5-490B12CA1E50">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-01 15:36:09 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
