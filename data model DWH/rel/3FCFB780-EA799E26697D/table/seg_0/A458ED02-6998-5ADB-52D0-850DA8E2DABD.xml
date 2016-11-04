@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A458ED02-6998-5ADB-52D0-850DA8E2DABD" name="LNK_EMAIL_ONTVANGER_INTERACTIE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:25:10 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HUB_VERZONDENEMAIL_DV_VERZONDENEMAIL_ID" id="7BFDDA0F-9FE0-FF2A-84E9-F33BB9440C91">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:25:39 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42AC41D9-3C4F-6CFC-034A-3443F1FF9129" referredColumn="891F8400-3806-8F56-382B-4706726EC2DA"/>
+</associations>
+</Column>
+<Column name="HUB_EMAILONTVANGER_DV_EMAILONTVANGER" id="D95AAFFE-1865-76FE-B5C8-20C0D3714196">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:26:12 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9C64611-27A7-4B16-AFE9-57F7C7DA090D" referredColumn="A6E4954A-6D8E-3F12-1C27-CF63CBA628F3"/>
+</associations>
+</Column>
+<Column name="HUB_EMAILINTERACTIE_DV_ACTIEID" id="14205792-F768-E2F2-1056-2C916A520A3C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:26:18 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B85B69E0-EABD-6FD5-764A-F8AC8283B53A" referredColumn="AB081832-EDEF-96D2-6C2F-04DFB63355FA"/>
+</associations>
+</Column>
+<Column name="DV_EMAIL_ONTVANGER_INTERACTIE" id="02BFD9FA-0AC6-18C5-6632-0C0CE67801E9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:57:19 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8831A839-72F7-31CD-71E6-74AB65ED339B" name="LNK_EMAIL_ONTVANGER_INTERACTIE_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:57:19 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02BFD9FA-0AC6-18C5-6632-0C0CE67801E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CF10CF4-AA0C-CAF3-EA1C-DDE7A31A59C6" name="LNK_EMAIL_ONTVANGER_INTERACTIE_HUB_VERZONDENEMAIL_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:25:39 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BFDDA0F-9FE0-FF2A-84E9-F33BB9440C91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="755249E9-75F2-7F1E-CC81-832BD2E5AB8C" name="LNK_EMAIL_ONTVANGER_INTERACTIE_HUB_EMAILONTVANGER_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:26:12 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D95AAFFE-1865-76FE-B5C8-20C0D3714196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1A90924-CDB8-52D6-0651-8DA35C293BE9" name="LNK_EMAIL_ONTVANGER_INTERACTIE_HUB_EMAILINTERACTIE_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:26:18 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14205792-F768-E2F2-1056-2C916A520A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

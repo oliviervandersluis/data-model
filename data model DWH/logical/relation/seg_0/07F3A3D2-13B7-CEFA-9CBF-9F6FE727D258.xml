@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="07F3A3D2-13B7-CEFA-9CBF-9F6FE727D258">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:04:26 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+</engineerTo>
+<sourcePk>B69100AF-2DF0-3512-219E-DB61606FE871</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3ADD3D4-AB16-006C-8CCF-2C5DC5F20144</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C92133B6-C4D8-065E-1E57-45E5587129CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

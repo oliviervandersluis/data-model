@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEA50189-9F1B-32FD-9622-FC81911780F1" name="ontvanger_emailactie">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:31:31 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="interactorID" id="4CD8ABE9-BA23-DE6E-CD6B-0431D04A90E8">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:53:29 UTC</createdTime>
+<generatorID>7F0E13B5-1898-2E4F-DA96-CFA15F5F1E9E</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<referedAttribute>C7968F08-8E89-B742-6FD2-EAB9F0E0A2BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actieID" id="C6AF79F4-CA5D-CD64-7E3F-40545EAD807D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:53:41 UTC</createdTime>
+<generatorID>AA92B4D8-8F1C-8D18-C13E-331874B9FB88</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<referedAttribute>0CBB2B31-E28F-1A80-9550-94D7CC1B3F6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailid" id="5421ADB6-8A6E-CA1F-1E31-8E6FE4D38B4A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:53:53 UTC</createdTime>
+<generatorID>CD5A3824-E394-154A-CB70-FFA52307881A</generatorID>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<referedAttribute>ED0BB6B4-986E-9F3D-D076-D8173330E267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activiteitdatum" id="8AA25B0B-EF5E-78AB-F547-ED745A2B45C5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:56:06 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operatingsystem" id="C236F713-60DF-D265-8026-268A90DEC5DF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:58:01 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="browser" id="43EDB42D-7EFB-0424-6552-57C882D94196">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:58:02 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mobile" id="A0A0A263-96E0-63D2-5CBF-683C0D4BA9CE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:58:02 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F4CC574-8ACB-1500-E4C3-AD8FDF9571D3" name="ontvanger_emailactie PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:56:31 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CD8ABE9-BA23-DE6E-CD6B-0431D04A90E8</attributeRef>
+<attributeRef>4CD8ABE9-BA23-DE6E-CD6B-0431D04A90E8</attributeRef>
+<attributeRef>C6AF79F4-CA5D-CD64-7E3F-40545EAD807D</attributeRef>
+<attributeRef>5421ADB6-8A6E-CA1F-1E31-8E6FE4D38B4A</attributeRef>
+<attributeRef>8AA25B0B-EF5E-78AB-F547-ED745A2B45C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

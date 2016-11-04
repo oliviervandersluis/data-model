@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ESP" id="3FCFB780-6F54-B788-5FB4-EA799E26697D" mainViewID="94CE8864-3D80-E3E3-C41E-B64587FAD7D9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:06:03 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="528C3E56-E1B5-FE2F-F30F-D9CF9F40B259" containerWithKeyObject="2CC48580-D1F6-B516-C537-9BD7487A19DD" localFKIndex="8A38BF6A-B656-69E0-3F99-DB600A533785" name="SAT_EMAIL_ONTVANGER_INTERACTIE_LNK_EMAIL_ONTVANGER_INTERACTIE_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 13:57:43 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A458ED02-6998-5ADB-52D0-850DA8E2DABD</referredTableID>
+<keyObject>8831A839-72F7-31CD-71E6-74AB65ED339B</keyObject>
+<referredKeyID>8831A839-72F7-31CD-71E6-74AB65ED339B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

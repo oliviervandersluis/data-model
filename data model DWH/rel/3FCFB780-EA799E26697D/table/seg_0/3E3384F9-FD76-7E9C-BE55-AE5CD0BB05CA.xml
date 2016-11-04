@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E3384F9-FD76-7E9C-BE55-AE5CD0BB05CA" name="HUB_EMAILINTERACTOR">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DV_EMAILINTERACTOR" id="A6E4954A-6D8E-3F12-1C27-CF63CBA628F3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BK1_EMAIL" id="17570703-65EC-76C8-28D0-388512F6279C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BK2_CHANNELNAME" id="56AE76F4-9E65-FFDA-FB56-B505B083F754">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOAD_DTS" id="DA62DF7A-05FC-334E-B17D-5F909AC5033A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECORD_SOURCE" id="72E5ED5B-767C-9D3B-95A7-36DA2CCDCC67">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ETL_RUN_ID" id="7C54B29D-CA63-57AA-C97D-CA201901E4D2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9AA18F3-B93E-0879-B7CD-8C77FC88323D" name="DV_EMAILINTERACTOR">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:11:34 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6E4954A-6D8E-3F12-1C27-CF63CBA628F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

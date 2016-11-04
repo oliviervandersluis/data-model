@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="55BF1536-827E-7D0A-0D5C-261A7A475058">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-04 12:25:03 UTC</createdTime>
+<ownerDesignName>data model DWH</ownerDesignName>
+<engineerTo>
+<item key="E8B19E4E-8BD6-30FB-D2B2-8A6DE86BBDE6" value="true"/>
+<item key="49D1E2D4-24FE-33FB-412D-CD772D449873" value="true"/>
+<item key="0D056DDC-9964-6627-D68A-47BB900D574A" value="true"/>
+<item key="3FCFB780-6F54-B788-5FB4-EA799E26697D" value="true"/>
+</engineerTo>
+<sourcePk>C631B25D-212C-2D5A-1F00-8CD5BD8402F2</sourcePk>
+<targetPk>747708DA-CDDE-CD40-F15A-AEE8FAB449EE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>08475FC9-0FEC-04B7-CFEF-3E3153C415A2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>85815B34-46D6-A638-9E73-A803D3B42950</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
