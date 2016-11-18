@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA4592F4-795B-628C-C365-7161F4A9238D" name="SAL_CUSTOMER_REQUESTER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:31:42 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_SAL_CUSTOMER_REQUESTER_SID" id="E498624A-A822-28B3-C694-EA8CAF8B2AA4">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:32:00 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_REQUESTER_SID" id="57CE1CF3-7FFA-6206-E33C-DC5F90679CE3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:32:58 UTC</createdTime>
+<generatorID>A7789A6C-2257-98AC-E7C8-A5B793E6405E</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>67F41AE0-F4A4-C8E4-C3AD-C45F15A30D53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_CUSTOMER_SID" id="4FDB3900-48F4-1655-8832-9EBABA1A06B9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:33:07 UTC</createdTime>
+<generatorID>D1650255-79FF-DD1F-0CB3-453358E50DCA</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>6825311B-9998-39F8-2F84-22D5B8245E83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4891F5CA-4860-B022-933D-625E33A2A5BD" name="SAL_CUSTOMER_REQUESTER PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:32:31 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E498624A-A822-28B3-C694-EA8CAF8B2AA4</attributeRef>
+<attributeRef>57CE1CF3-7FFA-6206-E33C-DC5F90679CE3</attributeRef>
+<attributeRef>4FDB3900-48F4-1655-8832-9EBABA1A06B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

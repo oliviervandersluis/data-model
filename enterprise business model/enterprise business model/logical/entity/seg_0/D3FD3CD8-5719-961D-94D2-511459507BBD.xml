@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3FD3CD8-5719-961D-94D2-511459507BBD" name="HUB_TICKET">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:21 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_HUB_TICKET_SID" id="19F67444-7DE0-FE0B-3A3D-B1E5550D8197">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:30 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BK_TICKETCODE" id="821A7001-06EA-26ED-D55C-FFFF60F22D6B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:58 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_TICKET_REQUESTER_SID" id="6C3AEC67-8120-31AF-0186-40829F10CE60">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:28:11 UTC</createdTime>
+<generatorID>A75B6EA2-00E1-CAAB-112F-2D5FB5BED3C0</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>05C02FFC-80B8-9C51-4124-36372B95B5DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_TICKET_ORDER_SID" id="C9F6AE5D-F537-72B8-BCB2-9EB73714009A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:35:20 UTC</createdTime>
+<generatorID>AA64A1A7-2EEC-00E4-4E76-1CED64E7096F</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>E8D40173-FED2-ECDA-7730-FD72208DB46B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_TICKETCREATED_AGENT" id="84E7F8B9-9E05-0324-8738-28EAB5F0495B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 12:02:05 UTC</createdTime>
+<generatorID>66B10F7E-FFE9-53A4-880D-7100914AD35D</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>1238BDF3-7851-85A2-FDFF-B3424B28608A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_AGENT_SID" id="521C70CA-9E53-67A9-E1C8-5407B7D34E78">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 12:02:05 UTC</createdTime>
+<generatorID>66B10F7E-FFE9-53A4-880D-7100914AD35D</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>78A7E7DF-9188-6491-60C2-478C59C6A207</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_AGENT_TICKETASSIGNEE" id="918CBD13-F892-0FDC-FA07-C0EA9CFE50CA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 12:02:18 UTC</createdTime>
+<generatorID>731987F1-2B28-3976-9109-A78DA7C06EE4</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>86AA7768-15D1-745F-66B2-A137D3D029F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_AGENT_SID1" id="A5325342-2340-87A0-B00C-76750802FC1F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 12:02:25 UTC</createdTime>
+<generatorID>731987F1-2B28-3976-9109-A78DA7C06EE4</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>25FF15D5-B4A4-A719-F545-7740A15AA01F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21944D37-937A-05AD-B975-1E0EF7F3AEFA" name="HUB_TICKET PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:55 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19F67444-7DE0-FE0B-3A3D-B1E5550D8197</attributeRef>
+<attributeRef>918CBD13-F892-0FDC-FA07-C0EA9CFE50CA</attributeRef>
+<attributeRef>A5325342-2340-87A0-B00C-76750802FC1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

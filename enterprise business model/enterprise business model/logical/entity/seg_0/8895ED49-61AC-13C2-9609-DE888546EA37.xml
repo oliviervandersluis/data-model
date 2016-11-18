@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8895ED49-61AC-13C2-9609-DE888546EA37" name="LNK_CUSTOMER_ORDER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:18:40 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_HUB_CUSTOMER_SID" id="764D604F-D5DD-D970-8E92-582CCF31521D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:19:56 UTC</createdTime>
+<generatorID>74778F64-4E09-725E-B2E7-4213CC0BB9EF</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>6825311B-9998-39F8-2F84-22D5B8245E83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_ORDER_SID" id="2F9ACAB9-5782-A5D7-83E1-8F90997B3F08">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:20:00 UTC</createdTime>
+<generatorID>11173EEC-018B-A94B-8106-BBFF7239CC80</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>F27A6169-0DF0-3601-6B7F-A9BA451B6C50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_CUSTOMER_ORDER_SID" id="D843AB1D-26D2-B5EF-16D0-4E2833C49E35">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:21:08 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB1C7AAC-09AF-227D-E8AA-91719DCB722C" name="LNK_CUSTOMER_ORDER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:20:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<newElementsIDs>74778F64-4E09-725E-B2E7-4213CC0BB9EF,11173EEC-018B-A94B-8106-BBFF7239CC80</newElementsIDs>
+<usedAttributes>
+<attributeRef>764D604F-D5DD-D970-8E92-582CCF31521D</attributeRef>
+<attributeRef>2F9ACAB9-5782-A5D7-83E1-8F90997B3F08</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="45E3043C-75E3-200A-2112-47744DD9AA82" name="LNK_CUSTOMER_ORDER PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:21:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D843AB1D-26D2-B5EF-16D0-4E2833C49E35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB7B8E58-BDF9-5A1F-3F68-EDA9B545E15C" name="LNK_PRODUCT_PRODUCTITEM">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 09:23:34 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_HUB_PRODUCT_SID" id="B37E1CA3-771C-38F2-F245-9CD0E1E818C0">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 09:46:55 UTC</createdTime>
+<generatorID>9F1DB4E2-2665-A0B8-C3DA-DC7BD207D078</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_LNK_PRODUCT_PRODUCTITEM_SID" id="836FB491-0C18-B862-2557-614EC7812870">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:36:20 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="021DFE65-5187-E789-B3B4-65929A4FF537" name="LNK_PRODUCT_PRODUCTITEM PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:36:38 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>836FB491-0C18-B862-2557-614EC7812870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

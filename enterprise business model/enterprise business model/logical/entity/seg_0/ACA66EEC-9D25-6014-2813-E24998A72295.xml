@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACA66EEC-9D25-6014-2813-E24998A72295" name="HUB_PRODUCTITEM">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 08:19:52 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BK_PRODUCTCODE_&amp;_CHANNEL" id="A2BF7E05-D5B0-79C3-1AEE-CE7D6E48FCA5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:28:50 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HUB_PK_PRODUCTITEM_SID" id="07642253-DB2D-1E3E-177F-4293CF99D2A0">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:28:52 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80BE5038-1D26-4B5F-5F6E-6BDAB21F5F4E" name="HUB_PRODUCTITEM PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:35:40 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07642253-DB2D-1E3E-177F-4293CF99D2A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

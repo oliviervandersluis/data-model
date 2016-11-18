@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2A240BF-CD5F-E93D-3005-3E3696E3574E" name="LNK_AGENT_TICKETCREATED">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:56:53 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_LNK_TICKETCREATED_AGENT" id="1238BDF3-7851-85A2-FDFF-B3424B28608A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:57:06 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PK_HUB_AGENT_SID" id="78A7E7DF-9188-6491-60C2-478C59C6A207">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 12:01:59 UTC</createdTime>
+<generatorID>A11D12E4-D0F8-0972-7A19-C61DE1811190</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>0141599B-A4E1-6890-63CB-5528ADBEA91B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="817E9421-BC2A-F098-A425-E405512C8FF1" name="LNK_AGENT_TICKET PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 11:57:15 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1238BDF3-7851-85A2-FDFF-B3424B28608A</attributeRef>
+<attributeRef>78A7E7DF-9188-6491-60C2-478C59C6A207</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

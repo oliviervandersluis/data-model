@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="enterprise business model" id="AF34B82B-EBAB-20AF-0370-6DAD836AFA9D" version="3.5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 08:17:59 UTC</createdTime>
+<ownerDesignName>Business Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AF34B82B-EBAB-20AF-0370-6DAD836AFA9D</designId>
+</OSDM_Design>
