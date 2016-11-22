@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE699B62-949D-93A6-B484-79132C425BAC" name="LNK_ORDERLINE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C8596F2-230D-5D20-9275-1B8C7A5D628F" name="HUB_CARRIER">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 08:22:53 UTC</createdTime>
+<createdTime>2016-11-22 12:20:27 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
@@ -15,58 +15,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_ORDER_SID" id="93B27B13-27DE-4639-0C56-7CC9B0717E82">
+<Attribute name="PK_HUB_CARRIER_SID" id="3FD68EE9-DDB3-6B30-2089-783048B119FA">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:36:39 UTC</createdTime>
-<generatorID>8C815578-8D30-4881-FEC4-A645D4D2DAB7</generatorID>
+<createdTime>2016-11-22 12:34:40 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<referedAttribute>F27A6169-0DF0-3601-6B7F-A9BA451B6C50</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_HUB_SHIPPABLEPRODUCT_SID" id="A2649F45-3962-40A5-BA19-BB09A50A4F72">
+<Attribute name="BK_CARRIER_&amp;_TYPE" id="5968F976-0806-9960-0AF7-EE856B90DE3E">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:37:45 UTC</createdTime>
-<generatorID>E9F08ACE-F280-8E0F-A2CF-097C356199D7</generatorID>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<referedAttribute>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PK_LNK_ORDER_SID" id="B2F6992B-28EA-6537-BA89-0902D02B89C2">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 10:36:46 UTC</createdTime>
+<createdTime>2016-11-22 12:34:59 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2F0015FA-CCBC-BE4F-7FB6-243ECD287CDD" name="LNK_ORDERLINE PK">
+<identifier id="138D41ED-3CBB-9503-CC01-C23BF9AD44F0" name="HUB_CARRIER PK">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 10:37:10 UTC</createdTime>
+<createdTime>2016-11-22 12:34:56 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B2F6992B-28EA-6537-BA89-0902D02B89C2</attributeRef>
+<attributeRef>3FD68EE9-DDB3-6B30-2089-783048B119FA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

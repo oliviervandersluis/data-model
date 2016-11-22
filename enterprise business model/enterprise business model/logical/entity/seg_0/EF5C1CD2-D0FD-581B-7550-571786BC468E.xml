@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89D40980-FB9E-49D9-6D2E-8089B3E99DE4" name="HUB_SHIPPABLEPRODUCT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF5C1CD2-D0FD-581B-7550-571786BC468E" name="LNK_PRODUCT_STOCKPOSITION">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:14:05 UTC</createdTime>
+<createdTime>2016-11-22 12:55:17 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_SHIPPABLEPRODUCT_SID" id="DBAFC1C5-C929-BE1A-9E5C-947B0409F557">
+<Attribute name="PK_LNK_PRODUCT_STOCKPOSITION_SID" id="73586CBC-B485-E82A-FB6E-F826211438BA">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:30:09 UTC</createdTime>
+<createdTime>2016-11-22 12:55:29 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
@@ -27,31 +27,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BK_PRODUCTITEMINBASKETCODE" id="947A1CDA-D03E-1BF0-9915-CF2722312576">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:30:31 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B8B29E42-9C5E-0A8B-E095-6424A2855BE0" name="HUB_PRODUCT PK">
+<identifier id="BA1F4014-D98A-2BA9-B7AD-42CA76C3FA85" name="LNK_PRODUCT_STOCKPOSITION PK">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:30:35 UTC</createdTime>
+<createdTime>2016-11-22 12:55:53 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</attributeRef>
+<attributeRef>73586CBC-B485-E82A-FB6E-F826211438BA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
