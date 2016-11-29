@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D13D5664-0CD6-0A14-177D-A19C90BF293F" name="TICKET_TICKETFIELD">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:23:56 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TICKETFIELD_FieldId" id="708988C7-395E-ED67-2E2C-C6D8F1CFDF0B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:24:30 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C7AFF1A-DA0F-FD57-8A05-563E6897F6E0" referredColumn="0AC5AFD3-F51D-CB4F-A66A-5A03AB2C67A7"/>
+</associations>
+</Column>
+<Column name="TICKET_TicketID" id="56D1ED2A-C51C-C9A2-5A76-E342BEE3268C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:26:32 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3CB66A-D19D-FFC3-47DE-FF28F96C6077" referredColumn="17467C46-D699-F0BA-43D6-06045498FE6C"/>
+</associations>
+</Column>
+<Column name="Value" id="176781BC-5512-480C-FC37-846F138D8ABC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:41:21 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="620571CE-09C2-D836-D1DF-ABAC4F6B7E7F" name="TICKET_TICKETFIELD_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:26:09 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="708988C7-395E-ED67-2E2C-C6D8F1CFDF0B"/>
+<colUsage columnID="56D1ED2A-C51C-C9A2-5A76-E342BEE3268C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC6A2821-7C6E-9807-6023-6F7619DD58AA" name="TICKET_TICKETFIELD_TICKETFIELD_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:24:30 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="708988C7-395E-ED67-2E2C-C6D8F1CFDF0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDB267F8-FC3E-726B-52CC-7283DF764653" name="TICKET_TICKETFIELD_TICKET_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:26:32 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56D1ED2A-C51C-C9A2-5A76-E342BEE3268C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
