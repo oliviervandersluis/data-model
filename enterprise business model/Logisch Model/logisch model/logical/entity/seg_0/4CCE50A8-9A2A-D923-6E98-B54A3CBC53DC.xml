@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CCE50A8-9A2A-D923-6E98-B54A3CBC53DC" name="PRODUCT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 08:27:26 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ChannelName" id="34F9EDB2-62EB-B00E-A7FB-8001830A4FC5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:30:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductName" id="A07117AF-AC31-9B6F-4916-6797639673A5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:31:02 UTC</createdTime>
+<generatorID>BC6BE3D2-754A-E4EB-9BAB-A5721460CBE9</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<referedAttribute>E767B928-982A-1894-FB9B-13BB85452946</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6794CF49-6D7C-F0A1-BC35-05C2ACC696CE" name="PRODUCT PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:29:07 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34F9EDB2-62EB-B00E-A7FB-8001830A4FC5</attributeRef>
+<attributeRef>A07117AF-AC31-9B6F-4916-6797639673A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

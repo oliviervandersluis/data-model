@@ -4,6 +4,7 @@
 <createdTime>2016-11-28 14:10:24 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <ordsAlias>table_7</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

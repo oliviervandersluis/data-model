@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BA89E89-0BF4-30F2-1E9C-D900BCCA25EF" name="SUPPLIER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 08:40:26 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SupplierName" id="F3EB4BD7-FDF4-F79A-6539-8BC22A231FD6">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:14:59 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AddressID" id="9FEE954B-9234-CC64-4B80-C9A2A6F2B2D7">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:15:04 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95AB032E-A5E8-7BA2-CAF6-939EDEA2E195" name="SUPPLIER PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:31:33 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3EB4BD7-FDF4-F79A-6539-8BC22A231FD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="BRAND" directorySegmentName="seg_0" id="E2931EBA-AC70-4EA8-7BE8-1D4CA43075C3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="BrandName" id="009DCE7F-82B6-9C82-9ADF-AC3E0AC25341">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="BrandURL" id="E4D054EC-C300-369D-FB8B-65DB2064E92B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="BRAND_PK" id="ACAACCD6-ADC3-BC17-6748-544B46BD9C22">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

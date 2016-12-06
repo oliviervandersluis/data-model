@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC134834-1848-72FE-168C-1AD4331C7915" name="ORDERLINE/SHIPPABLEPRODUCT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 08:27:22 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductItemInBasketCode" id="A275B05E-9ECC-40E4-7A41-9943FAC1DB21">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:56:48 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IndividualShipmentID" id="43FD3C49-363D-E4C9-6321-8A20D53306CE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 17:08:38 UTC</createdTime>
+<generatorID>AA16B9E0-0146-87A4-42E8-731F7413133E</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<referedAttribute>D9C181A1-0587-75F2-56BF-39FE78D93E21</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderCode" id="81BD2C0C-E1AA-1CA8-56D8-5383A1DEE520">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 17:10:31 UTC</createdTime>
+<generatorID>AA16B9E0-0146-87A4-42E8-731F7413133E</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<referedAttribute>C325EC76-9580-A23F-7DF4-0C2902D9BB69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C620F9E9-DEDF-759A-8383-F81649A0FAFE" name="ORDERLINE/SHIPPABLEPRODUCT PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 17:08:38 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43FD3C49-363D-E4C9-6321-8A20D53306CE</attributeRef>
+<attributeRef>81BD2C0C-E1AA-1CA8-56D8-5383A1DEE520</attributeRef>
+<attributeRef>A275B05E-9ECC-40E4-7A41-9943FAC1DB21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

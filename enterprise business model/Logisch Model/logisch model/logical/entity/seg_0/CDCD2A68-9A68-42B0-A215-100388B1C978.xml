@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDCD2A68-9A68-42B0-A215-100388B1C978" name="TICKET">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:34:23 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TicketCode" id="8F99BD72-2FD9-E6C0-111D-A5328F9C7B6B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:34:31 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CreatedDateTime" id="50A5C22A-7F10-BB2D-7548-80933ADD6C46">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:54:21 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderCode" id="C8F8B4AD-68D4-4283-5AE0-A0FF0D004242">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:54:34 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CardCode" id="AE6342C8-A061-2241-5A85-8457BF523E22">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:54:42 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Message" id="912687FC-A31B-A2E8-DA9F-204FA1BFE36A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:54:46 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ChannelName" id="FAE81777-1DF4-8AB6-7BBC-32FC61943648">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:57:37 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="B4EDC49F-6523-6B8C-A465-2ED67E61E904">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:57:52 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeviceType" id="0D06E002-6F83-D37A-E291-7A29299D2960">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:58:12 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductType" id="27F4A1D9-232B-009F-9BAD-8228B639A073">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 15:58:34 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerSupportTicketType" id="C64D4DBD-C67B-C0D2-E205-CEFE928B19C1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:00:58 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CreationSource" id="F6B9822F-5082-3100-A7BC-6DFA72B86C8C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:01:11 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AanvragerID" id="DC45CE30-4336-3042-7525-7373737FEB75">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:05:33 UTC</createdTime>
+<generatorID>250BA98B-158D-CA56-837E-8B0EE6AADDE8</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<referedAttribute>EC2CE090-1DA0-CF22-AC62-F8CC1273C4FF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="593C8627-66F2-6E2F-9813-1889B28C2034">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:06:22 UTC</createdTime>
+<generatorID>0275CCCB-3495-9382-BF9B-30F92DFEE488</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<referedAttribute>16C67A5D-36B0-9C2F-94AA-C7F34E938FF1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94964C1F-E707-6469-E853-CB8B1F2F8875" name="TICKET PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:06:09 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F99BD72-2FD9-E6C0-111D-A5328F9C7B6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

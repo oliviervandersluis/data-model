@@ -4,6 +4,7 @@
 <createdTime>2016-11-28 13:58:43 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <ordsAlias>table_5</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -263,7 +264,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -317,16 +318,6 @@
 <colUsage columnID="F17773E1-6FA3-B230-F00A-4A1CC5206105"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E05B514C-3E54-1798-747D-9D2F8DE07FCC" name="TICKET_AGENT_(ASSIGNEE)_FK">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-29 11:00:33 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="41B65394-D356-3F12-F415-B0294BD8ED43"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="6FC716C9-0BB3-A5D3-BEC1-5CC2C5967BD3" name="TICKET_BRAND_FK">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-29 11:00:50 UTC</createdTime>
@@ -345,6 +336,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="24844162-4733-E394-1228-CEBED0A7E1FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E05B514C-3E54-1798-747D-9D2F8DE07FCC" name="TICKET_AGENT_(ASSIGNEE)_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 11:00:33 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B65394-D356-3F12-F415-B0294BD8ED43"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

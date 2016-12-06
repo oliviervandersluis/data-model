@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="TICKET" directorySegmentName="seg_0" id="CEE7DE6C-B7BF-23C4-FE11-712F33F624EF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="BRAND_BrandName" id="093503A8-3761-A2F2-1C2E-C054B64F890E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Description" id="11BE4676-7AD2-4C69-3250-EF0983803BB3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="UpdatedAt" id="1403392F-3C93-98D4-A7E1-D54BC4A56426">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TicketID" id="17467C46-D699-F0BA-43D6-06045498FE6C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="GROUP_GroupID" id="24844162-4733-E394-1228-CEBED0A7E1FF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Subject" id="25EB7320-220C-FC1B-70CF-3AFF80FF8C44">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Status" id="266EF97F-2D37-05E6-40C5-D9A7BD89C538">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ProductCategorie" id="33F1B559-FB05-DBA6-E34F-0A07DEE240C1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Bezorger" id="36F751DE-D834-6647-FF2E-B3EFA52F8748">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="AgentAssignee" id="41B65394-D356-3F12-F415-B0294BD8ED43">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Soort" id="456ED69E-761D-5405-3483-585010FE2674">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="PriveZakelijk" id="4AC6E070-120F-6F73-9CBB-C0A13CA5F9E9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="SubCategorie" id="514A6910-B382-7C6B-CAC5-37545ED87C55">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CreatedAt" id="60B0EAF7-A26A-A621-D432-220A4ED32036">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="SatisfactionScore" id="9F240ED1-E42D-8956-0B82-29DE0D53B242">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="ChannelName" id="A9EF9375-726B-147C-D21B-373E02E7B90A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Veroorzaker" id="AD7E63CA-FDF7-BA9D-36A7-3AD33BB1E882">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TotalTimeSpent" id="C320ECA9-120A-F85A-C6A4-E898AF119F69">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="REQUESTER_RequesterID" id="C9FECB6E-D3CC-A7B0-929E-AF98ED7993FC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Oplossing" id="CA185D30-04B7-EED5-B73E-1094A9D28CD2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="AgentCreator" id="F17773E1-6FA3-B230-F00A-4A1CC5206105">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Priority" id="F433D7DA-20CF-C865-C078-AACD1C4C916F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_BRAND_FK" id="6FC716C9-0BB3-A5D3-BEC1-5CC2C5967BD3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_AGENT_(CREATOR)FK" id="7FA39703-B3B8-B8E1-6926-327CC616A3EF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_REQUESTER_FK" id="83B95428-0057-9B5F-9EC2-06626B5BAB43">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_GROUP_FK" id="A87F7C16-8CFE-EB08-8CC3-6750D36D1F49">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_AGENT_(ASSIGNEE)_FK" id="E05B514C-3E54-1798-747D-9D2F8DE07FCC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="TICKET_PK" id="7B813E31-950A-4B1E-F3C4-587A708CA1C8">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

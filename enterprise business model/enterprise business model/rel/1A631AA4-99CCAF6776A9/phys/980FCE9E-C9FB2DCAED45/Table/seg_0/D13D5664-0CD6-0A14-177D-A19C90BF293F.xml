@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="TICKET_TICKETFIELD" directorySegmentName="seg_0" id="D13D5664-0CD6-0A14-177D-A19C90BF293F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="Value" id="176781BC-5512-480C-FC37-846F138D8ABC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TICKET_TicketID" id="56D1ED2A-C51C-C9A2-5A76-E342BEE3268C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TICKETFIELD_FieldId" id="708988C7-395E-ED67-2E2C-C6D8F1CFDF0B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_TICKETFIELD_TICKETFIELD_FK" id="CC6A2821-7C6E-9807-6023-6F7619DD58AA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TICKET_TICKETFIELD_TICKET_FK" id="CDB267F8-FC3E-726B-52CC-7283DF764653">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="TICKET_TICKETFIELD_PK" id="620571CE-09C2-D836-D1DF-ABAC4F6B7E7F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E09F324-CE2D-7524-6CF2-56B48E777399" name="LNK_CUSTOMER_REGISTEREDCUSTOMER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E09F324-CE2D-7524-6CF2-56B48E777399" name="LNK_CUSTOMER_REGISTRATION">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-12-01 09:59:01 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_LNK_CUSTOMER_REGISTEREDCUSTOMER" id="F7A764F5-AC9D-366D-D519-1A4443A4CE2A">
+<Attribute name="PK_LNK_CUSTOMER_REGISTRATION" id="F7A764F5-AC9D-366D-D519-1A4443A4CE2A">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-12-01 09:59:11 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_HUB_REGISTEREDCUSTOMER_SID" id="BA5888E7-D353-6550-9CD7-C4CCD00B648E">
+<Attribute name="PK_HUB_REGISTRATION_SID" id="BA5888E7-D353-6550-9CD7-C4CCD00B648E">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-12-01 10:00:06 UTC</createdTime>
 <generatorID>E3B4D0AC-39AB-3223-E921-99335C66BB0A</generatorID>

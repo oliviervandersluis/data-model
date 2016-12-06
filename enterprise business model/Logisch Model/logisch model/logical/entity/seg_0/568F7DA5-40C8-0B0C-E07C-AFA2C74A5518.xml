@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="568F7DA5-40C8-0B0C-E07C-AFA2C74A5518" name="ADDRESS">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:19 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AddressID" id="61B473BB-24E6-3FB6-F2FD-E8DC8426279A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:28 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StreetName" id="5AAE5988-2A29-BBED-9E69-DAF52863FAEA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:28 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StreetNumber" id="AE5D14B0-BA3D-42B1-DDA2-E31CDAC6A8AD">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:28 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StreetNumberExtension" id="8A5A8556-0F50-88B7-30CD-E2394D909A02">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:29 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="6A08AAD3-EDE8-5C09-A77E-7D120A2B20F3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:29 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZipCode" id="165D6177-D532-1937-B9A2-BF0FC46AB6D6">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:29 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StateProvinceCounty" id="E1BE63E2-AF8F-9A3A-96D7-51A84FC36226">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:54 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CountyCode" id="11D78778-2F90-1F9A-0565-4525DACD79AE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:54 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExtraAddressLin1" id="B6B0567F-3C73-E99C-B5F1-19000FD940A6">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:54 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExtraAddressLin2" id="04351B56-EAC0-4679-1586-FF9E97CAE80B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 14:57:54 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="419B7362-05E3-8926-F3C4-6439174C4C39" name="ADDRESS PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-06 16:32:58 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="EB57DB06-3E82-7E27-7960-97CD1A1CC82F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61B473BB-24E6-3FB6-F2FD-E8DC8426279A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

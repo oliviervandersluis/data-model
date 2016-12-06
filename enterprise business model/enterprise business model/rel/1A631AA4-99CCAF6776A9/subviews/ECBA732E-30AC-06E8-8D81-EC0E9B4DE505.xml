@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="ECBA732E-30AC-06E8-8D81-EC0E9B4DE505">
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Customer Service" id="ECBA732E-30AC-06E8-8D81-EC0E9B4DE505">
 <createdBy>sluiso</createdBy>
 <modifiedBy>sluiso</modifiedBy>
 <createdTime>2016-11-18 08:19:09 UTC</createdTime>
@@ -13,6 +13,7 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<showClassificationTypes>true</showClassificationTypes>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1063487A-F149-D2E2-FAEC-B5D49F8349B2" otype="Table" vid="76D76574-1BA7-344E-27F2-2BF96BD71441">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -20,7 +21,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="10A856EC-D1C6-A1FB-C101-9691E2EBEABD" otype="Note" vid="13775CA5-6325-79DB-B8E8-8F107E0CFFB3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="115" y="471" width="223" height="106"/>
+<bounds x="129" y="562" width="223" height="106"/>
 <comment>Dit zullen we in de eerste instantie niet doen.&lt;br/&gt;Met het ticketid kunnen de comments worden opgehaald.&lt;br/&gt;&lt;br/&gt;https://greetznl.zendesk.com/api/v2/tickets/{ticketid}/comments.json</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6DFAF6B8-F8E0-B8BB-771D-B2837634C27F" otype="Table" vid="217CD6EE-98A3-B7D1-AB4F-BCA83344E4FE">
@@ -81,7 +82,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="329" y="168"/>
+<point x="315" y="168"/>
 <point x="402" y="168"/>
 </points>
 </Connector>
@@ -113,8 +114,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="329" y="178"/>
-<point x="402" y="158"/>
+<point x="315" y="178"/>
+<point x="402" y="178"/>
 </points>
 </Connector>
 </connectors>

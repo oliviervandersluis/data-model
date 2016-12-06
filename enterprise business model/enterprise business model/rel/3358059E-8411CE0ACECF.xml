@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="EDW_Relational_Model" id="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" mainViewID="241ED2CF-15C8-DD73-A839-6007204000C2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 13:59:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>
