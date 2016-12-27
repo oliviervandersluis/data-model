@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_ORDER_SID" id="F27A6169-0DF0-3601-6B7F-A9BA451B6C50">
+<Attribute name="BK_ORDERCODE" id="A7296784-3E12-B928-C343-00963C4BC86C">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-18 08:38:59 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
@@ -26,17 +26,480 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="BK_ORDERCODE" id="A7296784-3E12-B928-C343-00963C4BC86C">
+<Attribute name="ChannelName" id="FE157DF2-7B05-CF80-8CC8-CCC16B377230">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 08:38:59 UTC</createdTime>
+<createdTime>2016-12-19 12:45:17 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="BBB24F74-72AE-96EA-13D0-13A3499EFA26">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:45:17 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShoppingBasketUUID" id="141B4392-8D0C-F68D-9126-9240F9DB8D04">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:45:18 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderCreated" id="F6F5642D-4B2B-F701-247E-C44BDF4D6A3A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:45:18 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ClientNetworkAddress" id="11F5ED13-2862-A8EC-D8F2-D0723464D104">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:45:18 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CurrentOrderState" id="FF730CE4-9D29-1E6C-E8A6-DD0346DDFC8F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:45:18 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingFirsttName" id="CAFB684C-3B9C-62FC-8DE8-EFC72DC90A7E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:23 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingLastName" id="273B6CE9-921F-1668-5C34-642DDA98FF98">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:23 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingCompanyname" id="5A1832C4-4E09-7173-821D-5092FE3AEE1D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:24 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingStreet" id="F161D340-A070-B66F-2823-6E1CAA7FB04A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:24 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingHousenumber" id="E0D18E88-8B9C-9535-0963-FC932984AC5E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:24 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingHousenumberExtension" id="956DCF5A-BDFC-28C2-294B-685E76301A8F">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:24 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingCity" id="B7A99700-C307-7404-1A2B-0E96D5450B91">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:25 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingZipcode" id="1E0204C5-5D74-85AE-C9C0-A9CB7C06AF76">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:25 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingState" id="FE589BB2-F854-5826-D61B-347E0468AACC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:25 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingCountry" id="A6365F08-C6FF-CE0B-5FFE-458D772D1F15">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:25 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingEmailAddress" id="838AB3D5-400E-B464-65B9-3FC710951532">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:25 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingMobileNumber" id="983CAA87-FC52-1714-7DA7-50519C54BFB0">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingFaxNumber" id="FD7E86DB-F530-16CC-7CD8-AB6E92084C14">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingPhoneNumber" id="257C6E2E-76D6-0264-8C47-2D6CCF9D7EB5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingExtraLine1" id="CE1FEFE4-D628-B9D6-51C5-D164DF335E20">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingExtraLine2" id="6D742FBD-67F4-CA33-BB56-146AC65C805A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderBillingGender" id="5250F144-C93D-8225-529B-C81DDE5C2458">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:26 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContraForOrderID" id="A1889871-8C40-1478-82AC-EB6F5CB49267">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RefundMethod" id="AB2FDD18-C354-748A-CDF4-5B378A162428">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VoucherCode" id="89F6B82E-44A4-22DC-E17F-95BCDA2CDB54">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Referrercode" id="3FF8F821-CF97-081C-C628-3308832B38C5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ReferrerType" id="ABE0C3D8-C16E-1D05-E78C-7947F2969CCC">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InvoiceNumber" id="C81EB7F1-A51F-021B-49B5-75FFAC7DCE29">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:28 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InvoicePeriod" id="E800C414-ABA6-2F03-A923-4C5EC62292D7">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:28 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InvoicePaid" id="CE40EE64-92DB-A207-38A8-C5036AAF029E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:28 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="InvoicePaidDate" id="C5C339D4-B33F-E477-5BC8-71BA0AF283AE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 14:43:28 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -54,9 +517,6 @@
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>F27A6169-0DF0-3601-6B7F-A9BA451B6C50</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

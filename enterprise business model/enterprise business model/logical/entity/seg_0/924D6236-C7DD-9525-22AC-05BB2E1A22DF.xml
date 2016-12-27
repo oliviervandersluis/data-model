@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="924D6236-C7DD-9525-22AC-05BB2E1A22DF" name="HUB_B2BCAMPAGNE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 11:55:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BK_HUB_CAMPAGNENAAM" id="BAAB2E5D-D589-B4A7-8AD4-C2AAC76A5832">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 11:55:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<importedID>57C07568-4DB7-7382-85F9-FAE114E720D1</importedID>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC9B80A2-547E-F232-892E-B6E6836D8D5E" name="HUB_B2BPROSPECT PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 11:55:27 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

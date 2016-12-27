@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3FD3CD8-5719-961D-94D2-511459507BBD" name="TICKET">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:21 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TICKETCODE" id="821A7001-06EA-26ED-D55C-FFFF60F22D6B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:58 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductCode" id="96C071BF-BA59-3C93-E9CE-F4D906A8D404">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 13:10:25 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21944D37-937A-05AD-B975-1E0EF7F3AEFA" name="HUB_TICKET PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:45:55 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>821A7001-06EA-26ED-D55C-FFFF60F22D6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

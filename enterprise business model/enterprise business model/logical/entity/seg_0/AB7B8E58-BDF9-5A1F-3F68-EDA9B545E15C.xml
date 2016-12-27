@@ -4,6 +4,7 @@
 <createdTime>2016-11-18 09:23:34 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,28 +16,31 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_SHIPPABLEPRODUCT_SID" id="B37E1CA3-771C-38F2-F245-9CD0E1E818C0">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:46:55 UTC</createdTime>
-<generatorID>9F1DB4E2-2665-A0B8-C3DA-DC7BD207D078</generatorID>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<referedAttribute>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PK_LNK_SHIPPABLEPRODUCT_PRODUCT_SID" id="836FB491-0C18-B862-2557-614EC7812870">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-18 10:36:20 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BK_PRODUCTITEMINBASKETCODE" id="F36FE91A-330E-A75F-46EC-0760ADF3C445">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:28:16 UTC</createdTime>
+<generatorID>9F1DB4E2-2665-A0B8-C3DA-DC7BD207D078</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>947A1CDA-D03E-1BF0-9915-CF2722312576</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -46,6 +50,7 @@
 <createdTime>2016-11-18 10:36:38 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>

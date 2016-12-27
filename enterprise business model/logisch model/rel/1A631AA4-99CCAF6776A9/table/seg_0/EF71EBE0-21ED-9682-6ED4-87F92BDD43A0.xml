@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF71EBE0-21ED-9682-6ED4-87F92BDD43A0" name="COMMENT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:43:19 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CommentID" id="7D55241A-3CA2-B5CA-4129-9654BB7F20FB">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:43:52 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CommentText" id="1B302BDE-E39C-ABCC-4621-864D82E80D83">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:44:10 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TICKET_TicketID" id="E17AEBE2-F248-4F9A-C6A4-62D05F963B7D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:49:26 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC9D5A08-D9C9-8264-3A79-DE9CD070889B" referredColumn="17467C46-D699-F0BA-43D6-06045498FE6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F5A17CA-665A-A820-1E0D-A3527E75256D" name="COMMENT_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:44:15 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D55241A-3CA2-B5CA-4129-9654BB7F20FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A8AE43-C5E3-B0D9-AB23-EB2A27D96B5B" name="COMMENT_TICKET_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 15:49:26 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17AEBE2-F248-4F9A-C6A4-62D05F963B7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

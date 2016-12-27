@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logisch model" id="28BA9785-6505-F215-8651-C38A6835C5BD" version="3.5">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-12-06 08:26:20 UTC</createdTime>
-<ownerDesignName>logisch model</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>28BA9785-6505-F215-8651-C38A6835C5BD</designId>
-</OSDM_Design>

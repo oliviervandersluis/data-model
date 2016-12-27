@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7533624-CCD3-2EE5-6BA8-93E764E1D481" name="AGENT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:10:24 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgentID" id="A053B3B3-EFB3-7CBC-097A-CCCC40DAD8AE">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:10:55 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="EF295545-1D65-B764-1F16-64ECACDA4A5D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 09:55:35 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C88E9508-776E-9CA0-B761-007B0912CEC7">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 09:55:49 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alias" id="A9540E46-3028-4BF6-B034-C98494B48D7C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 09:55:49 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6308D3F5-E5DC-3FC4-2FEF-AB77D917DE71" name="AGENT_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:10:55 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A053B3B3-EFB3-7CBC-097A-CCCC40DAD8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

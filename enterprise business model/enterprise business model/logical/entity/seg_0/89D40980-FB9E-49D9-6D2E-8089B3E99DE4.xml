@@ -4,6 +4,7 @@
 <createdTime>2016-11-18 09:14:05 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,23 +16,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_SHIPPABLEPRODUCT_SID" id="DBAFC1C5-C929-BE1A-9E5C-947B0409F557">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:30:09 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="BK_PRODUCTITEMINBASKETCODE" id="947A1CDA-D03E-1BF0-9915-CF2722312576">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-18 09:30:31 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,11 +37,12 @@
 <createdTime>2016-11-18 09:30:35 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</attributeRef>
+<attributeRef>947A1CDA-D03E-1BF0-9915-CF2722312576</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

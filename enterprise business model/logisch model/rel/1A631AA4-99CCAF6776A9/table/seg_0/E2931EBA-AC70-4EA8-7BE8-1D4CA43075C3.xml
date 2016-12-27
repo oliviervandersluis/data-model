@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2931EBA-AC70-4EA8-7BE8-1D4CA43075C3" name="BRAND">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:11:47 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BrandName" id="009DCE7F-82B6-9C82-9ADF-AC3E0AC25341">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:12:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BrandURL" id="E4D054EC-C300-369D-FB8B-65DB2064E92B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 09:52:57 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACAACCD6-ADC3-BC17-6748-544B46BD9C22" name="BRAND_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:13:30 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="009DCE7F-82B6-9C82-9ADF-AC3E0AC25341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,6 +4,7 @@
 <createdTime>2016-11-18 11:33:54 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -20,22 +21,9 @@
 <createdTime>2016-11-18 11:34:07 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PK_HUB_ORDER_SID" id="AB1FA087-9A8E-1D84-D5AF-A13FFFE2D1FA">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 11:35:15 UTC</createdTime>
-<generatorID>18043B34-4EF1-0E89-0238-FF3643E73A04</generatorID>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<referedAttribute>F27A6169-0DF0-3601-6B7F-A9BA451B6C50</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -48,6 +36,7 @@
 <createdTime>2016-11-18 11:34:38 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>

@@ -16,21 +16,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_SHIPPABLEPRODUCT_SID" id="A2649F45-3962-40A5-BA19-BB09A50A4F72">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 09:37:45 UTC</createdTime>
-<generatorID>E9F08ACE-F280-8E0F-A2CF-097C356199D7</generatorID>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<referedAttribute>DBAFC1C5-C929-BE1A-9E5C-947B0409F557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PK_LNK_ORDER_SID" id="B2F6992B-28EA-6537-BA89-0902D02B89C2">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-18 10:36:46 UTC</createdTime>
@@ -44,19 +29,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_HUB_SID" id="A1B40E60-2AAF-C1CC-BDFB-8EA1E97E06FB">
+<Attribute name="BK_PRODUCTITEMINBASKETCODE" id="60BA9E80-F767-15EB-CBD0-B713109FBE33">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-12-06 15:45:14 UTC</createdTime>
-<generatorID>851A02B1-EE6E-DBE2-1F22-E114C0C111A3</generatorID>
+<createdTime>2016-12-19 15:28:16 UTC</createdTime>
+<generatorID>E9F08ACE-F280-8E0F-A2CF-097C356199D7</generatorID>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<referedAttribute>B6E7568B-9075-8628-9EC5-13D85A91949C</referedAttribute>
+<referedAttribute>947A1CDA-D03E-1BF0-9915-CF2722312576</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -72,7 +58,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B2F6992B-28EA-6537-BA89-0902D02B89C2</attributeRef>
-<attributeRef>A1B40E60-2AAF-C1CC-BDFB-8EA1E97E06FB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

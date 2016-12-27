@@ -4,6 +4,7 @@
 <createdTime>2016-11-18 08:19:52 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -20,6 +21,7 @@
 <createdTime>2016-11-18 10:28:50 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -27,23 +29,12 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="HUB_PK_PRODUCTITEM_SID" id="07642253-DB2D-1E3E-177F-4293CF99D2A0">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 10:28:52 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="BK_EXTRA_CHANNEL" id="7392B338-4A43-C02D-13CB-8A4A5C437756">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-22 11:34:35 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,6 +43,96 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="LengthInMM" id="4DAB0D98-DAAA-2E90-41E4-1C1C84F0A70A">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WidthInMM" id="11BFF8E9-66FA-2271-60B7-75E658710096">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepthInMM" id="15888DDF-2968-3725-2E3D-9FFDED208296">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WeightInGrams" id="614294F2-A7A6-EE27-4C59-799FA7457E68">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaperType" id="822D033E-034A-E217-D978-8F1DF34C20C5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColorType" id="136D8644-AAEA-3BA0-9D60-85EBA760FE7C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:33:49 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="80BE5038-1D26-4B5F-5F6E-6BDAB21F5F4E" name="HUB_PRODUCTITEM PK">
@@ -59,11 +140,13 @@
 <createdTime>2016-11-18 10:35:40 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>07642253-DB2D-1E3E-177F-4293CF99D2A0</attributeRef>
+<attributeRef>A2BF7E05-D5B0-79C3-1AEE-CE7D6E48FCA5</attributeRef>
+<attributeRef>7392B338-4A43-C02D-13CB-8A4A5C437756</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

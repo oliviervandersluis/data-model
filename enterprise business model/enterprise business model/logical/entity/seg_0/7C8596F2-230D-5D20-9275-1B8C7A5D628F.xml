@@ -4,6 +4,7 @@
 <createdTime>2016-11-22 12:20:27 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,23 +16,26 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PK_HUB_CARRIER_SID" id="3FD68EE9-DDB3-6B30-2089-783048B119FA">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-22 12:34:40 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="BK_CARRIER_&amp;_TYPE" id="5968F976-0806-9960-0AF7-EE856B90DE3E">
+<Attribute name="CARRIER" id="5968F976-0806-9960-0AF7-EE856B90DE3E">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-22 12:34:59 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="EDB43347-DA6A-6445-ADB5-09A435AACD33">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:26:57 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,11 +51,13 @@
 <createdTime>2016-11-22 12:34:56 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3FD68EE9-DDB3-6B30-2089-783048B119FA</attributeRef>
+<attributeRef>5968F976-0806-9960-0AF7-EE856B90DE3E</attributeRef>
+<attributeRef>EDB43347-DA6A-6445-ADB5-09A435AACD33</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

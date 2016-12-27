@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="COMMENT" directorySegmentName="seg_0" id="EF71EBE0-21ED-9682-6ED4-87F92BDD43A0">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CommentText" id="1B302BDE-E39C-ABCC-4621-864D82E80D83">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="CommentID" id="7D55241A-3CA2-B5CA-4129-9654BB7F20FB">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="TICKET_TicketID" id="E17AEBE2-F248-4F9A-C6A4-62D05F963B7D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="COMMENT_TICKET_FK" id="C7A8AE43-C5E3-B0D9-AB23-EB2A27D96B5B">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>enterprise business model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="COMMENT_PK" id="0F5A17CA-665A-A820-1E0D-A3527E75256D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-05 14:02:43 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

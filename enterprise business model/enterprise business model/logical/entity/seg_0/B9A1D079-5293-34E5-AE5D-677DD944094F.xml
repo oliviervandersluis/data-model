@@ -4,6 +4,7 @@
 <createdTime>2016-11-28 11:17:51 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -20,37 +21,41 @@
 <createdTime>2016-11-28 11:18:09 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_B2BPROSPECT_SID" id="188F0B66-EAD9-9AA4-33FB-46DE950CCE60">
+<Attribute name="PK_B2BPROSPECT_SID1" id="82EF18A3-2123-387D-707E-3246F92E568E">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-28 13:56:01 UTC</createdTime>
-<generatorID>B98FE1C5-98D0-E7E5-97DE-2FE6B19E64BE</generatorID>
+<createdTime>2016-12-19 12:07:18 UTC</createdTime>
+<generatorID>7E550594-7355-BF40-719E-6B59B46BB2AE</generatorID>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<referedAttribute>B6096B6A-953F-B23C-D863-03E40A9CE256</referedAttribute>
+<referedAttribute>3E6D6F8A-8ED2-6B52-A86E-C1309B3C0A32</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_HUB_CUSTOMER_SID" id="3EF82443-EE08-E600-42AE-FB01F4F3DF34">
+<Attribute name="BK_HUB_KVKNUMBER" id="1CC6D277-2E25-6E81-CE05-55247F1077E3">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-28 13:56:08 UTC</createdTime>
-<generatorID>1A623913-1FEE-B21B-60DC-061D14491DF4</generatorID>
+<createdTime>2016-12-19 13:45:54 UTC</createdTime>
+<generatorID>B98FE1C5-98D0-E7E5-97DE-2FE6B19E64BE</generatorID>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<referedAttribute>6825311B-9998-39F8-2F84-22D5B8245E83</referedAttribute>
+<referedAttribute>074EF18F-B4DD-721A-3E36-13AA9CB4D082</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -60,6 +65,7 @@
 <createdTime>2016-11-28 11:18:25 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>

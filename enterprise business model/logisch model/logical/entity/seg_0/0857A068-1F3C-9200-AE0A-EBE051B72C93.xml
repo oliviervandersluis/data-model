@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0857A068-1F3C-9200-AE0A-EBE051B72C93" name="ADDRESS">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:18:10 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Street" id="9A1E1D2B-0694-364C-A189-C9A82B9D0D14">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Housenumber" id="16483826-A7B5-0F60-A6FB-6B5989C36C02">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HousenumberExtension" id="AB705AF8-0B73-0946-AEF4-0BD7D86BE943">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="2C11D7CC-CF88-9563-544C-C07F42D74110">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zipcode" id="54831263-97CF-7A91-E1FB-AEA2F3AE9F71">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="6B397000-A4F4-26D9-12CB-F6F4DE9BE0CF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="BEB86472-313F-531E-1C71-6BF70DD39728">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:19:17 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExtraLine1" id="60BB168C-A8B7-70F8-8A53-7B3984AF694C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:27:41 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExtraLine2" id="3A21CABE-5B9B-32F6-DA79-A973D1C31033">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:27:42 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postbusnummer" id="0A3E5429-BDE8-30DF-D73A-039F39D0A5F1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:41:15 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9F2531B-2814-5AB0-A554-9773B70996EC" name="ADDRESS PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-20 10:29:41 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>9A1E1D2B-0694-364C-A189-C9A82B9D0D14,16483826-A7B5-0F60-A6FB-6B5989C36C02,AB705AF8-0B73-0946-AEF4-0BD7D86BE943,2C11D7CC-CF88-9563-544C-C07F42D74110,54831263-97CF-7A91-E1FB-AEA2F3AE9F71,6B397000-A4F4-26D9-12CB-F6F4DE9BE0CF,BEB86472-313F-531E-1C71-6BF70DD39728</newElementsIDs>
+<usedAttributes>
+<attributeRef>9A1E1D2B-0694-364C-A189-C9A82B9D0D14</attributeRef>
+<attributeRef>16483826-A7B5-0F60-A6FB-6B5989C36C02</attributeRef>
+<attributeRef>AB705AF8-0B73-0946-AEF4-0BD7D86BE943</attributeRef>
+<attributeRef>2C11D7CC-CF88-9563-544C-C07F42D74110</attributeRef>
+<attributeRef>54831263-97CF-7A91-E1FB-AEA2F3AE9F71</attributeRef>
+<attributeRef>6B397000-A4F4-26D9-12CB-F6F4DE9BE0CF</attributeRef>
+<attributeRef>BEB86472-313F-531E-1C71-6BF70DD39728</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

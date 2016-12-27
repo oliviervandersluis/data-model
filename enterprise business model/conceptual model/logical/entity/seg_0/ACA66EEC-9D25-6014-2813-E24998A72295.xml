@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACA66EEC-9D25-6014-2813-E24998A72295" name="HUB_PRODUCT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 08:19:52 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BK_PRODUCTCODE" id="A2BF7E05-D5B0-79C3-1AEE-CE7D6E48FCA5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:28:50 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BK_EXTRA_CHANNEL" id="7392B338-4A43-C02D-13CB-8A4A5C437756">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-22 11:34:35 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80BE5038-1D26-4B5F-5F6E-6BDAB21F5F4E" name="HUB_PRODUCTITEM PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-18 10:35:40 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

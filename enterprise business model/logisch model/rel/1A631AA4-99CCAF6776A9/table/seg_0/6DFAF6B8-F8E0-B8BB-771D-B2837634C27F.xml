@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DFAF6B8-F8E0-B8BB-771D-B2837634C27F" name="REQUESTER">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:12:53 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RequesterID" id="7541A304-F293-F61E-B665-15D71B4CE5D2">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:13:24 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="1A0F99CF-7869-D491-C340-CB9FF999F398">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 11:02:35 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExternalID" id="BA9E1D2C-8C80-F964-AD23-9AA9E61DE333">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 11:40:22 UTC</createdTime>
+<commentInRDBMS>dit is het customerid uit Greetz3</commentInRDBMS>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C40DEE00-6618-C112-F8F1-01B90E82E2AF">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 11:41:03 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="5743EDB9-0328-CEBD-539E-F4142729640E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 12:42:01 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E5B7B65-4AD7-5D86-1E54-1E2DF9239017" name="REQUESTER_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-28 14:13:24 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7541A304-F293-F61E-B665-15D71B4CE5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

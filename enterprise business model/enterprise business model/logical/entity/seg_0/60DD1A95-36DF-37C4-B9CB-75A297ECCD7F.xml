@@ -29,19 +29,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_HUB_SID" id="B6E7568B-9075-8628-9EC5-13D85A91949C">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-11-18 08:29:44 UTC</createdTime>
-<ownerDesignName>enterprise business model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0E692231-1EAB-F1AA-4586-6A742D455D30" name="HUB_SHIPMENT PK">
@@ -53,9 +40,6 @@
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>B6E7568B-9075-8628-9EC5-13D85A91949C</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2D5EA4A-C94B-8876-84EE-5BEF3AD3DA8B" containerWithKeyObject="CEE7DE6C-B7BF-23C4-FE11-712F33F624EF" localFKIndex="83B95428-0057-9B5F-9EC2-06626B5BAB43" name="TICKET_REQUESTER_FK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 10:59:33 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DFAF6B8-F8E0-B8BB-771D-B2837634C27F</referredTableID>
+<keyObject>0E5B7B65-4AD7-5D86-1E54-1E2DF9239017</keyObject>
+<referredKeyID>0E5B7B65-4AD7-5D86-1E54-1E2DF9239017</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

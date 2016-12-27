@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61091511-564C-1FEB-1A84-D4D760D8ED44" name="HUB_B2BPROSPECT">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:08:52 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PK_B2BPROSPECT_SID" id="78CD9C1A-DEC5-8DB1-7337-6196901288A5">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:08:52 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<importedID>B6096B6A-953F-B23C-D863-03E40A9CE256</importedID>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BK_HUB_KVKNUMBER" id="3B1B21B4-7547-6E0D-3153-0B2F457E8483">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:08:52 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<importedID>074EF18F-B4DD-721A-3E36-13AA9CB4D082</importedID>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E84C5587-3E30-5982-FA16-32359F592BE5" name="HUB_B2BPROSPECT PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 12:08:52 UTC</createdTime>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78CD9C1A-DEC5-8DB1-7337-6196901288A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

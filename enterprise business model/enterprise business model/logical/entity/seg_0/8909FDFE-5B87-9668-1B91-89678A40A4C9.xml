@@ -4,6 +4,7 @@
 <createdTime>2016-11-22 11:38:41 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -20,11 +21,28 @@
 <createdTime>2016-11-22 11:39:11 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BK_RESOURCENAME" id="75C2DBAF-EB2E-54C5-3966-16D8D5E73B1E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-19 15:37:38 UTC</createdTime>
+<generatorID>B944FFBF-A787-F4AF-AF5A-B2787109EFC8</generatorID>
+<ownerDesignName>enterprise business model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>0C39DDDD-927C-DD8D-00F3-4C5586E9061D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -34,11 +52,13 @@
 <createdTime>2016-11-22 11:39:36 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>89DA40FC-4189-1E2E-9D26-4E305635CCF1</attributeRef>
+<attributeRef>75C2DBAF-EB2E-54C5-3966-16D8D5E73B1E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

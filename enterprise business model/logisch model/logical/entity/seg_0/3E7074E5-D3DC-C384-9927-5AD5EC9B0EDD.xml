@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E7074E5-D3DC-C384-9927-5AD5EC9B0EDD" name="FULLFILLMENTSTATUS">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 09:59:56 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EXTERNALREFERENCEID" id="FD5D9AAF-E367-D9E6-8315-4F27C5DA1B58">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:00:06 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="88A4BACF-9EE3-C96A-EC56-036FEB549B55">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:00:06 UTC</createdTime>
+<comment>Status = updated_stutus uit shipment_status_history_record&lt;br/&gt;updated = updatedon uit shipment_status_history_record</comment>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Updated" id="1546DAAC-8FAE-28C4-D6D7-D9CC55EB01EA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:00:32 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INDIVIDUALSHIPPING" id="D505E02B-E0FE-6981-D2F5-C66384B568D9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:04:58 UTC</createdTime>
+<generatorID>7F46EC0A-6845-2896-4D5E-1BAB8BE79BCE</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>7738765E-84B0-FF6C-CEDD-174C7066EF10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDERCODE" id="5AC1BDCC-353D-ECDD-3F76-CC7D03B862FA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:04:58 UTC</createdTime>
+<generatorID>7F46EC0A-6845-2896-4D5E-1BAB8BE79BCE</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>81672167-71A4-035B-98A5-58E458906663</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C89E8D1-5751-A8B4-B13F-B4E2288A36CA" name="SHIPMENTSTATUS PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 10:04:58 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D505E02B-E0FE-6981-D2F5-C66384B568D9</attributeRef>
+<attributeRef>5AC1BDCC-353D-ECDD-3F76-CC7D03B862FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

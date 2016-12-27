@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D37408C4-4531-B526-3501-5EBAB2751FF2" name="TICKETFIELD">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 08:20:37 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FieldId" id="0AC5AFD3-F51D-CB4F-A66A-5A03AB2C67A7">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 08:22:10 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FieldTitle" id="C9DBFC51-0AEB-FD4B-54E5-B7091436E1D9">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 08:22:10 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A2851D3-B780-2C2C-D3A3-4FA2D66E423F" name="FIELD_PK">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-11-29 08:22:10 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC5AFD3-F51D-CB4F-A66A-5A03AB2C67A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

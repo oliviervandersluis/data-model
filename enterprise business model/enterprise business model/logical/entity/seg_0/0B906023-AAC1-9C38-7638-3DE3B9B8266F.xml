@@ -4,6 +4,7 @@
 <createdTime>2016-11-18 08:33:05 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,11 +16,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="BK_ORDERBILLINGEMAIL_&amp;_CHANNEL" id="361DF726-C286-A719-45DA-7065A028F868">
+<Attribute name="BK_CUSTOMERID" id="361DF726-C286-A719-45DA-7065A028F868">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-11-18 08:33:14 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,6 +35,7 @@
 <createdTime>2016-11-18 08:33:14 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,6 +50,7 @@
 <createdTime>2016-11-18 08:33:21 UTC</createdTime>
 <ownerDesignName>enterprise business model</ownerDesignName>
 <engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
