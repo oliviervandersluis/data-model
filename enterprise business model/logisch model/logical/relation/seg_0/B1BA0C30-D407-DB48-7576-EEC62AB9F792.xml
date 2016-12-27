@@ -8,7 +8,7 @@
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <sourcePk>B8B29E42-9C5E-0A8B-E095-6424A2855BE0</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

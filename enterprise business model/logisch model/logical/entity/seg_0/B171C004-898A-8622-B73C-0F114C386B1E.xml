@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B503771C-125B-7C27-75E9-03728B37D904" name="SUPPLIER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B171C004-898A-8622-B73C-0F114C386B1E" name="CUSTOMERCONTENTSEARCHPROPERTIES">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-22 11:35:17 UTC</createdTime>
+<createdTime>2016-12-27 11:54:46 UTC</createdTime>
 <ownerDesignName>logisch model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
@@ -16,84 +16,53 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SUPPLIERNAME" id="40873C6B-FF15-7F90-C967-81F8EAA322AC">
+<Attribute name="CUSTOMERCREATEDCARDID" id="FA9CC214-0AC7-F6E8-BC32-0AF93121E95D">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-22 11:38:06 UTC</createdTime>
+<createdTime>2016-12-27 11:55:07 UTC</createdTime>
 <ownerDesignName>logisch model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
 <item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SupplierType" id="43570300-AEA0-F70A-49E0-9001135C149C">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-12-19 15:45:59 UTC</createdTime>
-<ownerDesignName>logisch model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>64</dataTypeSize>
-<ownDataTypeParameters>64,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SupplierInfo" id="53B5FC22-2EE2-C8C0-B25C-7916EC71DFF1">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-12-19 15:45:59 UTC</createdTime>
-<ownerDesignName>logisch model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SupplierMoq" id="4EC59A81-25CB-0D93-87A4-96DA317EAB04">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-12-19 15:45:59 UTC</createdTime>
-<ownerDesignName>logisch model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DebetorNumber" id="F40B0A1F-909F-0360-86F5-0B7535DF312B">
-<createdBy>sluiso</createdBy>
-<createdTime>2016-12-19 15:45:59 UTC</createdTime>
-<ownerDesignName>logisch model</ownerDesignName>
-<engineerTo>
-<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="KEYVALUE" id="29387281-13B8-2548-E725-B9A2272E3DC6">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 11:55:22 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ELEMENTVALUE" id="C309F37E-3072-6B8A-DEC8-620067C33938">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 11:55:26 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2906177A-75C3-C8AD-0D13-A722103A380C" name="HUB_SUPPLIER PK">
+<identifier id="19DCA573-04DB-B6F3-DE7B-5BA95B89D2AF" name="CUSTOMERCONTENTSEARCHPROPERTIES PK">
 <createdBy>sluiso</createdBy>
-<createdTime>2016-11-22 11:37:49 UTC</createdTime>
+<createdTime>2016-12-27 11:56:15 UTC</createdTime>
 <ownerDesignName>logisch model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
@@ -101,7 +70,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>40873C6B-FF15-7F90-C967-81F8EAA322AC</attributeRef>
+<attributeRef>FA9CC214-0AC7-F6E8-BC32-0AF93121E95D</attributeRef>
+<attributeRef>29387281-13B8-2548-E725-B9A2272E3DC6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAC829C4-F184-F514-C01E-C533A322BE0C" name="HUB_PRODUCTFULLFILLMENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAC829C4-F184-F514-C01E-C533A322BE0C" name="PRODUCTFULLFILLMENT">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-12-19 11:43:38 UTC</createdTime>
 <ownerDesignName>logisch model</ownerDesignName>
@@ -236,7 +236,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RetrievedStockAmountFromSupplier" id="ACF2EFD7-1DBD-3C33-E08F-B3B5962E6D92">
 <createdBy>sluiso</createdBy>

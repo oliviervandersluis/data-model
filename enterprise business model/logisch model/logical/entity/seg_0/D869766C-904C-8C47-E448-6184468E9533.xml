@@ -118,7 +118,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PRODUCTID" id="34B6885C-939A-C738-5A74-35B65370F910">
 <createdBy>sluiso</createdBy>
@@ -133,6 +133,86 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCTITEMINBASKETCODE" id="DB9503BC-B551-948C-C25B-62F0B4C28A06">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 13:23:00 UTC</createdTime>
+<generatorID>BE669407-4823-499F-7B3A-5252139BA70C</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>66719DB7-2786-773C-84CC-D90A0FA0648C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeviceType" id="0ECAF0F1-3C35-6972-FE88-121B4D31583E">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 13:23:00 UTC</createdTime>
+<generatorID>BE669407-4823-499F-7B3A-5252139BA70C</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>1726EE3B-5BCD-AA14-8A67-801D6BD7E8BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Platform" id="C4495A4A-92CA-9405-E2C2-A63A201A38A3">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 13:23:00 UTC</createdTime>
+<generatorID>BE669407-4823-499F-7B3A-5252139BA70C</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>178BEB49-5E8D-1616-2AD3-5AFDBEA594EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OperatingSystem" id="BA085D94-793C-C3B5-9380-EE67324457FA">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 13:23:00 UTC</createdTime>
+<generatorID>BE669407-4823-499F-7B3A-5252139BA70C</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>FD8C5D6A-9C17-DB52-D5EE-2CA6A8C24D89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Browser" id="194041E7-CF65-921B-359A-EE963E67A1E1">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 13:23:00 UTC</createdTime>
+<generatorID>BE669407-4823-499F-7B3A-5252139BA70C</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>C6C5B861-B94D-D35C-45DC-FBEE83016F0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -59,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeviceType" id="DD05BA78-FB1D-2DF4-185D-96C213BA48F4">
 <createdBy>sluiso</createdBy>
@@ -75,7 +75,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Platform" id="0C935356-70FF-F0C1-7106-CF45765C9FF6">
 <createdBy>sluiso</createdBy>
@@ -91,7 +91,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="OperatingSystem" id="EB41D180-904B-2B68-88C8-8AFB69960D2A">
 <createdBy>sluiso</createdBy>
@@ -107,7 +107,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Browser" id="89553D0B-74B0-0339-07BD-19940C28900F">
 <createdBy>sluiso</createdBy>
@@ -123,7 +123,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PRINTBATCH" id="1800275E-C620-F37F-7017-EC770975C0F4">
 <createdBy>sluiso</createdBy>
@@ -139,7 +139,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Amount" id="038C2880-9267-8608-C0F0-D2C2FB9DE0B7">
 <createdBy>sluiso</createdBy>
@@ -187,6 +187,50 @@
 <Attribute name="AssociatedProductItemInBasketID" id="49DEFB1B-E51E-7C65-0C3E-D06C0B41988E">
 <createdBy>sluiso</createdBy>
 <createdTime>2016-12-22 15:01:11 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShippableObjectUUID" id="CFFF3E7A-F48A-C1FA-72A5-6768C75397C0">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 12:06:21 UTC</createdTime>
+<comment>select * from shipableobject&lt;br/&gt;&lt;br/&gt;SELECT * FROM `shipableobjectcard`&lt;br/&gt;WHERE `UUID`=&apos;8768da7b-d4ba-4b50-bee1-cf4589b2c755&apos;&lt;br/&gt;&lt;br/&gt;SELECT * FROM `shipableobjectcard`&lt;br/&gt;WHERE UUID = &apos;000000c5-d041-4f88-98dc-d0432375d257&apos;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;SELECT * FROM `shipableobjectgift`&lt;br/&gt;WHERE UUID = &apos;0000405a-cedb-4438-ade8-07705817a974&apos;&lt;br/&gt;</comment>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GiftInBasketID" id="07A4BCBF-F109-ECFA-8271-DB721BA4E85D">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 12:08:50 UTC</createdTime>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CardInBasketID" id="5E0A9CDA-00CC-F6D7-91B9-3619CFC5832C">
+<createdBy>sluiso</createdBy>
+<createdTime>2016-12-27 12:08:58 UTC</createdTime>
 <ownerDesignName>logisch model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
