@@ -236,7 +236,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="KVKNUMBER" id="BA459B1A-ADEF-B52B-CBCB-7C4EEA3ED22E">
 <createdBy>sluiso</createdBy>
@@ -252,7 +252,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Campaign" id="5DA91A33-9DDE-0A8C-D57F-C5665EEBFD51">
 <createdBy>sluiso</createdBy>
@@ -268,7 +268,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Medium" id="0C8D816B-8816-5643-8EBC-B12857A1F2EF">
 <createdBy>sluiso</createdBy>
@@ -284,7 +284,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Source" id="DCFAB9A3-3293-340D-653A-98F0FADED7C0">
 <createdBy>sluiso</createdBy>
@@ -300,7 +300,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SearchKeyword" id="581D84E6-FE16-B734-4620-F772858B319C">
 <createdBy>sluiso</createdBy>
@@ -316,7 +316,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DeviceType" id="2BE30A80-2F4A-B33C-C491-3C6E8304E78A">
 <createdBy>sluiso</createdBy>
@@ -332,7 +332,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Platform" id="B5118FA5-AD0A-AA16-102C-EFA679A430DF">
 <createdBy>sluiso</createdBy>
@@ -348,7 +348,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="OperatingSystem" id="D3821762-D545-EE40-AD54-D92DF9DA44ED">
 <createdBy>sluiso</createdBy>
@@ -364,7 +364,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Browser" id="359CA2D9-2F38-C520-2AB3-2D776AEC4ED5">
 <createdBy>sluiso</createdBy>
@@ -380,7 +380,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="VOUCHERCODE" id="2DC70F53-6D75-0CF7-16B6-3FCA694E4113">
 <createdBy>sluiso</createdBy>
@@ -396,7 +396,23 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Landingspage" id="4D5962D4-664F-78A7-1ED1-545A379603CA">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:36:42 UTC</createdTime>
+<comment>eerste pagina waarop een klant gelandt is.&lt;br/&gt;Deze data wordt opgehaald uit Webtrekk, geen historie uit GA.&lt;br/&gt;</comment>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -45,6 +45,37 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CampagneNaam" id="76D0B9D3-F58B-686B-6B9B-D7ECB13305EB">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:34:01 UTC</createdTime>
+<generatorID>CCD9CBBC-E982-C3FB-9B01-F9ABF1C8E20B</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>F690D694-A055-7E76-1100-9BFFDE084B4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CampagneDatum" id="454FCF36-DFCF-E2F6-4721-0AD7DB45A1C8">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:34:01 UTC</createdTime>
+<generatorID>CCD9CBBC-E982-C3FB-9B01-F9ABF1C8E20B</generatorID>
+<ownerDesignName>logisch model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
+</engineerTo>
+<referedAttribute>6A52F3D4-2F5C-5FA5-A090-28B7AB1668E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9CD84641-2916-7A1B-18CC-8201795363DA" name="VOUCHER PK">

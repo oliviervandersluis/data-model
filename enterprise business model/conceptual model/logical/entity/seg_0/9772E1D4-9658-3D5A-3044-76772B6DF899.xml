@@ -5,7 +5,6 @@
 <ownerDesignName>conceptual model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,13 +21,56 @@
 <ownerDesignName>conceptual model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VOUCHERCODE" id="3838045F-A541-1ABA-584F-546BAB1DE922">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:34:53 UTC</createdTime>
+<generatorID>352DC436-BFD3-F55F-BA43-5E17015287E0</generatorID>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<referedAttribute>DCBF4AF3-A19F-11F1-011B-C6F32A548CFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CampagneDatum" id="B9537D4B-7D3E-73DB-6FD4-FFC072C3194F">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:36:12 UTC</createdTime>
+<generatorID>352DC436-BFD3-F55F-BA43-5E17015287E0</generatorID>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<referedAttribute>91F58E7B-7E36-1973-FB8B-C75AA7B26730</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CampagneNaam" id="5B5E84FA-3185-68DA-7F1C-21E7FFA59F7B">
+<createdBy>sluiso</createdBy>
+<createdTime>2017-01-02 13:36:12 UTC</createdTime>
+<generatorID>352DC436-BFD3-F55F-BA43-5E17015287E0</generatorID>
+<ownerDesignName>conceptual model</ownerDesignName>
+<engineerTo>
+<item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
+</engineerTo>
+<referedAttribute>A7775C91-3D7B-F7FC-B6B8-753801DA095C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -38,9 +80,13 @@
 <ownerDesignName>conceptual model</ownerDesignName>
 <engineerTo>
 <item key="3358059E-8BAF-58FB-DFAD-8411CE0ACECF" value="true"/>
-<item key="1A631AA4-1E03-7878-9619-99CCAF6776A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>3838045F-A541-1ABA-584F-546BAB1DE922</attributeRef>
+<attributeRef>B9537D4B-7D3E-73DB-6FD4-FFC072C3194F</attributeRef>
+<attributeRef>5B5E84FA-3185-68DA-7F1C-21E7FFA59F7B</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
